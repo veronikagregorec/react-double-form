@@ -1,6 +1,6 @@
 # React Double Form
 
-Application made in previous job.
+Application made in previous job for desktop and tablet users.
 
 ![](screenshots/BT-form.png)
 
