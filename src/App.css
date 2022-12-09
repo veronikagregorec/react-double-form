@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+:root {
+  --green: #009c9b;
+  --floorGreen: #cfdd6c;
+  --white: #fff;
+  --violet: #4b129d;
+  --hotpink: #f600f6;
+  --red: #ff0000;
+  --orange: #ffaa9e;
+  --black: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap2 {
+  padding: 30px;
+  background-color: var(--violet);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h12 {
+  color: var(--violet);
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.padding {
+  padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.margin2 {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea {
+  height: 250px;
+  resize: none !important;
+  word-wrap: break-word;
 }
+
+.text2 {
+  color: var(--violet);
+  font-weight: 600;
+}
+
+.btn3 {
+  background: var(--violet);
+  color: var(--white);
+  font-size: calc(16px + 0.5vw);
+  height: 60px;
+  width: 100%;
+  border: 1px solid var(--violet);
+
+}
+
+.btn3:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.leave {
+  color: var(--hotpink);
+}
+
+.wrap {
+  background-color: var(--green);
+  padding: 30px;
+}
+
+.text {
+  color: var(--floorGreen);
+}
+
+.main-text {
+  color: var(--green);
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#future {
+  margin-top: 25px;
+}
+
+.test {
+  padding: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.margin {
+  margin-top: 20px;
+}
+
+.btn2 {
+  background: var(--green);
+  color: var(--white);
+  font-size: calc(16px + 0.5vw);
+  height: 60px;
+  width: 100%;
+  border: 1px solid var(--green);
+}
+
+.btn2:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.btnClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: var(--red);
+  color: var(--white);
+  width: 60px;
+  height: 35px;
+  border: 1px solid var(--red);
+}
+
+.btn-send {
+  margin-top: 20px;
+  width: 70px;
+  height: 35px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: 1px solid var(--orange);
+}
+
+.btn-send:active {
+  transform: scale(0.8);
+}
+
+.btn-send:hover {
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.email {
+  width: 350px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
