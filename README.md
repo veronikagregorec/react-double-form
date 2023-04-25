@@ -24,7 +24,7 @@ BT Form
 
 ![](screenshots/BT-form.png)
 
-EE-form
+EE Form
 
 ![](screenshots/EE-form.png)
 
